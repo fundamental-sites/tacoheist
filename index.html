@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taco Heist | Authentic Mexico City Street Tacos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav>
+            <div class="brand">
+                <a href="#hero">
+                    <img src="images/th_company_logo.png" alt="Taco Heist Logo">
+                </a>
+            </div>
+            <div class="links">
+                <a href="#menu">MENU</a>
+                <a href="#visit">VISIT US</a>
+                <a href="#" class="btn order-popup-trigger">ORDER ONLINE</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <img src="images/th_company_logo_lg.png" alt="Taco Heist Shield Logo" style="margin: 20px 0 10px 0;">
+            <div class="eyebrow" style="margin-top: 15px;">WESTFIELD, IN</div>
+            <h1>GUARD YOUR <br>TACOS.</h1>
+            <p>Authentic Traditional Mexico City Street Tacos &amp; Botanas</p>
+            <div class="actions">
+                <a href="#menu" class="btn">EXPLORE THE MENU</a>
+                <a href="#visit" class="btn btn-outline">VISIT US</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section class="wrap" id="menu">
+        <div class="center">
+            <div class="eyebrow">The goods</div>
+            <h2>THE MENU</h2>
+            <p class="intro">Made with care, loaded with flavor. Our street tacos are served on warm double corn tortillas with diced white onion, cilantro, lime, and your choice of house salsa.</p>
+            <span class="pill">⚡ ALL TACO HEIST ITEMS ARE GLUTEN-FREE &amp; NUT-FREE </span>
+        </div>
+        
+        <!-- Dynamic Menu Container populated via js/main.js -->
+        <div id="menu-container" class="menu-grid" style="margin-top:35px">
+            <!-- Menu categories and items injected here dynamically -->
+        </div>
+
+        <p class="small center" style="margin-top:28px">Menu and pricing are subject to change. Please tell our team about allergies before ordering, even though our menu is designed for a dedicated gluten-free and nut-free kitchen.</p>
+    </section>
+
+    <!-- VISIT & CONTACT SECTION (3 COLUMNS) -->
+    <section class="wrap visit-section" id="visit">
+        <div class="center">
+            <div class="eyebrow">Come see us</div>
+            <h2>VISIT &amp; CONTACT</h2>
+            <p class="intro">Located inside the Westfield Collective venue alongside PI Society Pizza and Smash &amp; Grab Burgers.</p>
+        </div>
+
+        <div class="visit-grid">
+            <!-- Column 1: Location -->
+            <div class="visit-card">
+                <h3>Location</h3>
+                <p><strong>Taco Heist</strong><br>
+                Westfield Collective<br>
+                750 E 181st St<br>
+                Westfield, IN 46074</p>
+            </div>
+
+            <!-- Column 2: Hours -->
+            <div class="visit-card">
+                <h3>Hours</h3>
+                <ul class="hours-list">
+                    <li><span><strong>Mon - Thu</strong></span> <span>11:00 AM - 9:00 PM</span></li>
+                    <li><span><strong>Fri</strong></span> <span>11:00 AM - 10:00 PM</span></li>
+                    <li><span><strong>Sat</strong></span> <span>10:00 AM - 10:00 PM</span></li>					
+                    <li><span><strong>Sunday</strong></span> <span>10:00 AM - 9:00 PM</span></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Inquiries -->
+            <div class="visit-card">
+                <h3>Inquiries and Venue</h3>
+                <p style="margin-top: 14px;">+1 (317) 648-5424<br>
+                <a href="mailto:inquiry@fundamental-hg.com" style="color: #fff; text-decoration: underline;">inquiry@fundamental-hg.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="foot">
+        <img src="images/th_company_logo.png" alt="Taco Heist Logo">
+        <p>&copy; <span id="year">2026</span> Taco Heist • Fundamental Hospitality Group. All rights reserved.</p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/menu-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
