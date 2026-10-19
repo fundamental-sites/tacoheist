@@ -266,6 +266,80 @@ h2 {
   color: var(--muted);
 }
 
+/* --- Balanced Editorial Story Section --- */
+.story-section {
+  background: #f4ebd0;
+  color: #2b241c;
+  padding: 95px 24px;
+  border-top: 1px solid #ffffff22;
+  border-bottom: 1px solid #ffffff22;
+}
+
+.story-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.story-mark-col {
+  flex: 0 0 36%;
+}
+
+.story-mark {
+  background: #2b241c;
+  color: #f4ebd0;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: clamp(60px, 8vw, 110px);
+  letter-spacing: 0.08em;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.story-content {
+  flex: 1;
+}
+
+.story-content h2 {
+  color: #2b241c;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.story-content h2 em {
+  font-style: italic;
+  color: #8c5a23;
+}
+
+.story-content p {
+  font-size: 15.5px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+  color: #42362b;
+}
+
+.story-content strong {
+  color: #1a1510;
+}
+
+@media(max-width: 850px) {
+  .story-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .story-mark-col {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
 .visit-section {
   background: #120f0c;
   border-top: 1px solid #ffffff1b;
