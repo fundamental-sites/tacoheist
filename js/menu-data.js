@@ -149,33 +149,33 @@ const menuData = [
         "items": [
             {
                 "number": "16",
-                "name": "Avocado-Tomatillo (Velvety blended avocado, tomatillo, and jalapeno",
+                "name": "Avocado-Tomatillo",
                 "price": "Mild",
-                "description": "Velvety blended avocado, tomatillo, and jalapeno \u2014 Mild"
+                "description": "Velvety blended avocado, tomatillo, and jalapeno"
             },
             {
                 "number": "17",
-                "name": "Pico de Gallo (Fresh tomato, jalapeno, white onion, & cilantro",
+                "name": "Pico de Gallo",
                 "price": "Mild",
-                "description": "Fresh tomato, jalapeno, white onion, & cilantro - Mild"
+                "description": "Fresh tomato, jalapeno, white onion, & cilantro"
             },
             {
                 "number": "18",
-                "name": "Salsa Verde (Tangy roasted tomatillo, jalapeno, and lime",
+                "name": "Salsa Verde",
                 "price": "Mild/Med",
-                "description": "Tangy roasted tomatillo, jalapeno, and lime \u2014 Mild/Med"
+                "description": "Tangy roasted tomatillo, jalapeno, and lime"
             },
             {
                 "number": "19",
                 "name": "Salsa Roja",
-                "price": "Mild",
-                "description": "Vibrant blends of smoky, deep-red guajillo chiles with the sharp, fiery kick of toasted chile de arbol \u2013 Med/Hot"
+                "price": "Med/Hot",
+                "description": "Vibrant blends of smoky, deep-red guajillo chiles with the sharp, fiery kick of toasted chile de arbol"
             },
             {
                 "number": "20",
                 "name": "Salsa \u00c1rbol / Habanero (Fiery roasted habanero and chile de \u00e1rbol",
                 "price": "Extra Hot",
-                "description": "Fiery roasted habanero and chile de \u00e1rbol \u2014 Extra Hot"
+                "description": "Fiery roasted habanero and chile de \u00e1rbol"
             }
         ]
     }
