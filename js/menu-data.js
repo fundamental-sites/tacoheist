@@ -84,7 +84,7 @@ const menuData = [
                 "number": "12",
                 "name": "STREET TACO TRIO (MIX & MATCH ANY 3)",
                 "price": "$13.50+",
-                "description": ""
+                "description": "Base $13.50 for Steak, Chicken, Carnitas, or Campechano; +$1.00 per taco for Fish.(Add rice and beans for +$2.50)"
             }
         ]
     },
