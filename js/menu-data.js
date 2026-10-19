@@ -173,7 +173,7 @@ const menuData = [
             },
             {
                 "number": "20",
-                "name": "Salsa \u00c1rbol / Habanero (Fiery roasted habanero and chile de \u00e1rbol",
+                "name": "Salsa \u00c1rbol / Habanero",
                 "price": "Extra Hot",
                 "description": "Fiery roasted habanero and chile de \u00e1rbol"
             }
