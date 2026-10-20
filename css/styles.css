@@ -478,3 +478,38 @@ h2 {
   color: var(--gold);
   font-size: 15px;
 }
+
+.sibling-concepts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-family: inherit;
+}
+
+.concepts-label {
+    font-weight: bold;
+    color: #333; /* Adjust to match the specific site's text color */
+}
+
+.concept-link {
+    text-decoration: none;
+    color: #d9534f; /* Adjust to match the specific site's accent color */
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.concept-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Mobile responsive adjustment */
+@media (max-width: 768px) {
+    .sibling-concepts {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
