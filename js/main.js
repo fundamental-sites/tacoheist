@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Order Modal Logic
-    const orderUrl = "https://toast.app/r/taco-heist-wfc";
+    const orderUrl = "https://www.meandu.app/westfield-collective-mvo/counter";
     const modalHTML = `
         <div id="orderModal" class="order-modal-overlay" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.75); z-index: 1000; align-items: center; justify-content: center; backdrop-filter: blur(4px);">
             <div class="order-modal-content" style="background: #18130d; color: #fff5e5; border: 1px solid #ffc34f; border-radius: 12px; padding: 32px; max-width: 460px; width: calc(100% - 32px); text-align: center;">
