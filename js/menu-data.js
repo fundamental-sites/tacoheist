@@ -73,18 +73,12 @@ const menuData = [
                 "name": "Campechano (Steak & Chorizo)",
                 "price": "$4.50",
                 "description": "High-heat seared citrus-marinated skirt steak with crispy chorizo"
-            },
+            },,
             {
                 "number": "11",
-                "name": "Pescado (Fish)",
-                "price": "$5.50",
-                "description": "Crispy beer-battered fish with crunchy cabbage and tangy Baja sauce."
-            },
-            {
-                "number": "12",
                 "name": "STREET TACO TRIO (MIX & MATCH ANY 3)",
                 "price": "$13.50+",
-                "description": "Base $13.50 for Steak, Chicken, Carnitas, or Campechano; +$1.00 per taco for Fish.(Add rice and beans for +$2.50)"
+                "description": "Base $13.50 for Steak, Chicken, Carnitas, or Campechano (Add rice and beans for +$2.50)"
             }
         ]
     },
