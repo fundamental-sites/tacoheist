@@ -1,3 +1,5 @@
 # Ignore a specific file
 update_menu_gui.py
 blog/instructions.txt
+index.html.bak
+css/styles.css.bak
