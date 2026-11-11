@@ -10,6 +10,17 @@
   box-sizing: border-box;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -124,11 +135,11 @@ nav a:hover {
   letter-spacing: .24em;
 }
 
-h1, h2, h3, p {
+.hero .hero-title, h2, h3, p {
   margin-top: 0;
 }
 
-h1 {
+.hero .hero-title, h1 {
   font-size: clamp(45px, 8vw, 98px);
   line-height: .97;
   letter-spacing: -.065em;
